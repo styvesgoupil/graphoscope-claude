@@ -6,9 +6,10 @@ description: Send a Markdown document to Graphoscope (the user's Markdown reader
 # Send to Graphoscope
 
 `graphoscope-send` (on the PATH while this plugin is enabled) seals a Markdown document for the
-user's own devices and drops it in their Graphoscope inbox; the first Graphoscope app online
-(iPhone, iPad or Mac) imports it within seconds — saved in iCloud Drive › Graphoscope and pinned
-everywhere. Nothing on this machine, and nothing on the relay server, can read it back.
+user's own devices (paired with their private inbox, nobody else's) and drops it there; the first
+of the user's devices running Graphoscope that is online (iPhone, iPad or Mac) imports it within
+seconds — saved in their iCloud Drive › Graphoscope and pinned on all their devices. Nothing on
+this machine, and nothing on the relay server, can read it back.
 
 ## Steps
 
