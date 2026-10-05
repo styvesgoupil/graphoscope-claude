@@ -1,0 +1,28 @@
+{
+  "name": "graphoscope",
+  "displayName": "Graphoscope",
+  "version": "2.1.0",
+  "description": "Send a Markdown document to Graphoscope: end-to-end encrypted, saved in Graphoscope's iCloud storage and pinned on your iPhone, iPad and Mac.",
+  "author": {
+    "name": "Styves Goupil",
+    "url": "https://graphoscope.app"
+  },
+  "homepage": "https://graphoscope.app",
+  "repository": "https://github.com/styvesgoupil/graphoscope-claude",
+  "keywords": [
+    "markdown",
+    "graphoscope",
+    "icloud",
+    "notes",
+    "macos",
+    "ios"
+  ],
+  "userConfig": {
+    "pairing_code": {
+      "type": "string",
+      "title": "Graphoscope pairing code",
+      "description": "In Graphoscope: Settings › Receive from Claude Code › Turn On, then Copy Command. Paste it here: the whole command or just its gph1.… code.",
+      "sensitive": true
+    }
+  }
+}

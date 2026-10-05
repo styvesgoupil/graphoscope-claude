@@ -1,0 +1,12 @@
+{
+  "name": "graphoscope",
+  "description": "Graphoscope — a Markdown reader for Mac, iPhone and iPad",
+  "owner": { "name": "Styves Goupil", "url": "https://graphoscope.app" },
+  "plugins": [
+    {
+      "name": "graphoscope",
+      "source": "./",
+      "description": "Send a Markdown document to Graphoscope, end-to-end encrypted, pinned on all your devices"
+    }
+  ]
+}
